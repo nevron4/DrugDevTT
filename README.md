@@ -21,15 +21,15 @@ celery worker -A app.celery -B --loglevel=info
 celery -A app.celery flower
 ```
 
-##Api URLs
+Api URLs
 
 **Contact**
 ```text
-List all contacts 	GET 	http://[hostname]/contact						
-Find a contact by username 	GET 	http://[hostname]/contact/[contact_username]	
-Create a new contact 	POST 	http://[hostname]/contact						
-Update a contacts PUT 	http://[hostname]/contact/[contact_username]	
-Delete a contact 	DELETE 	http://[hostname]/contact/[contact_username]
+List all contacts   	        GET 	http://[hostname]/contact						
+Find a contact by username      GET 	http://[hostname]/contact/[contact_username]	
+Create a new contact 	        POST 	http://[hostname]/contact						
+Update a contacts               PUT 	http://[hostname]/contact/[contact_username]	
+Delete a contact 	        DELETE 	http://[hostname]/contact/[contact_username]
 ```
 **Email**
 ```text
