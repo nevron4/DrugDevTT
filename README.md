@@ -33,8 +33,8 @@ Delete a contact 	        DELETE 	http://[hostname]/contact/[contact_username]
 ```
 **Email**
 ```text
-Send mail 	POST 	http://[hostname]/contact/[contact_username]/email
-Get user emails 	GET 	http://[hostname]/contact/[contact_username]/email
-Get user email by id 	GET 	http://[hostname]/contact/[contact_username]/email/[email_id]
-Delete user email by id 	DELETE 	http://[hostname]/contact/[contact_username]/email/[email_id]
+Send mail 	            POST 	http://[hostname]/contact/[contact_username]/email
+Get user emails 	    GET 	http://[hostname]/contact/[contact_username]/email
+Get user email by id  	    GET 	http://[hostname]/contact/[contact_username]/email/[email_id]
+Delete user email by id     DELETE 	http://[hostname]/contact/[contact_username]/email/[email_id]
 ```
