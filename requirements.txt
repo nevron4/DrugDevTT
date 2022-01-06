@@ -1,7 +1,7 @@
 amqp==2.5.2
 Babel==2.7.0
 billiard==3.6.1.0
-celery==4.4.0
+celery==5.2.2
 Click==7.0
 Flask==1.1.1
 Flask-Celery==2.4.3
